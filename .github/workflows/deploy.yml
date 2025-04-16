@@ -57,6 +57,6 @@ jobs:
             --registry-password ${{ secrets.DOCKERHUB_READ_TOKEN }} \
             --dns-name-label posts-${{ secrets.DOCKERHUB_USERNAME }} \
             --ports 8080 \
-            --os-type Linux \
+            --os-type Windows \
             --cpu 1 \
             --memory 1.5 \
